@@ -36,7 +36,7 @@ spec:
     spec:
       containers:
       - name: details
-        image: pabloreal/creativa2:details
+        image: pabloreal/details:v1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9080
