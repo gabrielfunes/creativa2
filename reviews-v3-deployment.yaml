@@ -16,6 +16,7 @@ spec:
       labels:
         app: reviews
         version: v3
+    spec:
       containers:
       - name: reviews
         image: g26/reviews-v3
